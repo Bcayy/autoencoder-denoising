@@ -1,0 +1,9 @@
+\section{Related Work}
+
+Autoencoders are unsupervised neural networks designed to learn compact representations of input data by encoding and then reconstructing it. Since their introduction by Hinton and Salakhutdinov~\cite{hinton2006reducing}, autoencoders have been used for tasks such as dimensionality reduction, anomaly detection, and image restoration.
+
+In the domain of image denoising, Vincent et al.~\cite{vincent2008dae} proposed denoising autoencoders, which are trained to reconstruct clean data from corrupted inputs. This approach demonstrated that neural networks could learn robust features by attempting to reverse the effects of noise.
+
+More recent research has incorporated convolutional layers into autoencoder structures to better capture spatial relationships in images. For example, Zhang et al.~\cite{zhang2017beyond} proposed a residual learning framework that significantly improved denoising performance using deep convolutional networks.
+
+Compared to traditional denoising methods, deep learning approaches do not rely on explicit assumptions about the noise distribution and can generalize well across different types of image degradation. In this project, we build on these ideas by implementing a convolutional denoising autoencoder and evaluating its effectiveness on the MNIST dataset.

@@ -1,0 +1,7 @@
+\begin{abstract}
+This project explores the application of convolutional denoising autoencoders for restoring corrupted images. We focus on the MNIST dataset, consisting of handwritten digit images, and introduce artificial Gaussian noise to simulate real-world image degradation. Our goal is to train a deep learning model capable of reconstructing clean images from noisy inputs in an end-to-end manner.
+
+The proposed architecture utilizes multiple convolutional and pooling layers in both encoder and decoder sections, enhanced with dropout regularization to prevent overfitting. The model is trained using binary cross-entropy loss and evaluated with both qualitative visuals and quantitative metrics such as Peak Signal-to-Noise Ratio (PSNR) and Structural Similarity Index (SSIM).
+
+Results show that the model effectively reconstructs images, achieving an average PSNR of 20.38 dB and SSIM of 0.8655 over the test set. These results confirm the strength of convolutional autoencoders in image restoration tasks. This study demonstrates that even with simple architectures, deep learning techniques can deliver robust denoising performance with limited computational resources.
+\end{abstract}

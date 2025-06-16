@@ -1,0 +1,9 @@
+\section{Conclusion}
+
+In this project, we implemented a convolutional denoising autoencoder to remove Gaussian noise from handwritten digit images in the MNIST dataset. The model was trained end-to-end using noisy-clean image pairs, and its performance was evaluated both quantitatively and qualitatively.
+
+The autoencoder achieved an average PSNR of 20.38 dB and SSIM of 0.8655 on the test set, demonstrating its effectiveness in preserving structural information while reducing noise. Visual results confirmed that the model could accurately reconstruct the digit shapes even under severe noise.
+
+This study highlights the capability of convolutional architectures in image restoration tasks, even with relatively simple designs and limited resources. Future work may involve applying the model to more complex datasets such as CIFAR-10, experimenting with residual connections or attention mechanisms, or extending the architecture to handle color images and different types of noise.
+
+Overall, This work confirms that even lightweight models can offer competitive denoising results, paving the way for real-world deployment.

@@ -1,0 +1,9 @@
+\section{Introduction}
+
+Image denoising is a fundamental problem in computer vision, aimed at recovering clean images from noisy observations. Noise can be introduced through various sources such as low-quality sensors, poor lighting conditions, or data transmission errors. Effective denoising is essential in applications like medical imaging, surveillance, and autonomous driving, where image clarity significantly impacts downstream tasks.
+
+Traditional denoising techniques, such as Gaussian filtering or wavelet-based methods, often require prior assumptions about the noise distribution and may result in loss of fine image details. With the advent of deep learning, data-driven approaches have shown remarkable improvements in denoising performance without the need for handcrafted features.
+
+Autoencoders, a class of unsupervised neural networks, have emerged as powerful tools for image restoration. By learning compact latent representations and reconstructing input images, denoising autoencoders can remove noise while preserving essential features.
+
+This project focuses on building a convolutional denoising autoencoder for the MNIST dataset. We add synthetic Gaussian noise to the original digits and train the model to recover clean images. The performance is evaluated using visual comparisons, PSNR, and SSIM metrics. Our results demonstrate that even a simple CNN-based architecture can achieve robust denoising performance on low-resolution images.
